@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Name": "Ion",
+    "Level": "Senior Developer",
+    "HourlyRate": 30.5,
+    "WorkingHours": 160
+  },
+  {
+    "Id": 2,
+    "Name": "Vasile",
+    "Level": "Junior Developer",
+    "HourlyRate": 20,
+    "WorkingHours": 150
+  },
+  {
+    "Id": 3,
+    "Name": "Luca",
+    "Level": "Senior Developer",
+    "HourlyRate": 30.5,
+    "WorkingHours": 190
+  },
+  {
+    "Id": 4,
+    "Name": "Petru",
+    "Level": "Junior Developer",
+    "HourlyRate": 20,
+    "WorkingHours": 140
+  },
+  {
+    "Id": 5,
+    "Name": "Pavel",
+    "Level": "Senior Developer",
+    "HourlyRate": 30.5,
+    "WorkingHours": 180
+  }
+]
