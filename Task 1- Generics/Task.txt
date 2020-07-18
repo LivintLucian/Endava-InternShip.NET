@@ -1,0 +1,19 @@
+1.Create a generic method that receives as input an array and returns it in reverse. Display at console the reverse array.
+
+2.Create a class that has two generic parameters(one that have the constraint of being a reference type and the 
+constructor constraint and the other one to implement a generic interface created by you).Create a method inside the 
+class that displays the types of both parameters.
+
+3.Use a similar collection to list that doesn’t allow duplicate values, populate it with values(try adding duplicate 
+values) and display it.
+
+4.Create a Customer and an Order class(with some specific properties e.g. Name, Age, Date). One Customer can have multiple 
+Orders.Create a collection of Customers with a collection of Orders(min 3 customers, each having a few orders).
+Iterate through each customer’s order and store them in a Key/Value collection having the Customer name as key and 
+as value all orders specific for that customer. Display the Key/Value collection.
+
+5.For the previous created models create a generic interface that expose the CRUD (create-read-update-delete) 
+operations for those entities(repository). For one implementation of the repository store the values into a simple 
+collection and for the other one store them using a key/value collection in order to be able to group them by 
+a common information.
+
