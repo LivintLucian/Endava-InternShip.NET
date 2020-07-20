@@ -1,0 +1,5 @@
+1.Faceti un mecanism prin care sa calculati timpul de executie a unei metode (Action).
+Extindeti mecanismul ca el sa ruleze acel cod de 100 de ori si sa returneze averageul.
+    
+2. Creati un mecanism de filtrare care sa primeasca ca input un sir de string-uri si care sa returneze numai acele string-uri care indeplinesc o anumita conditie pasata ca parametru.
+Extindeti acest mecanism facandu-l generic astfel incat sa poata primi o lista de orice fel de obiect pentru care sa specificati o anumita proprietate pe care sa se faca filtrarea.
