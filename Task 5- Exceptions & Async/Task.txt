@@ -1,0 +1,6 @@
+-Sa se creeze o aplicatie care sa simuleze prognoza meteo.
+-Aceasta trebuie sa poata furniza datele cu o precizie mai mica dar intr-un raspuns mai scurt sau cu o precizie mai mare intr-un timp mai indelungat
+-Aplicatia o sa faca call-uri la 10 statii meteorologice diferite care vor raspunde dupa diferite perioade de timp cu o valoare(int)
+-In caz ca se vrea un raspuns rapid se vor astepta doar primele 3 raspunsuri care sunt mai rapide, altfel se vor astepta toate cela 10 si se va face media
+-Pentru ca performanta aplicatiei este foarte importanta sa se foloseasca concepte de multithreading unde este posibil
+-Raspunul de la statiile meteo poate fi o metoda care returneaza un numar(temperatura) si, pt a simula un request web, fiecare statie meteo va raspunde intr-un interval random intre 1-5 secunde
