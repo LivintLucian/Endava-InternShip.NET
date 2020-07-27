@@ -1,0 +1,2 @@
+﻿Add filter by color functionality
+Add filter by type and color functionality

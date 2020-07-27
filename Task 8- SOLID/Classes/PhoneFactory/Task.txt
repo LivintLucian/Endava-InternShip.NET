@@ -1,0 +1,2 @@
+﻿Fix possible errors that may appear at runtime
+Add new type of phone that does not have bluetooth or NFC
