@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="login--form">
+        <h2>Login Form</h2>
+        <form action="/action_page.php" method="post" class="login-form">
+            <div class="imgcontainer">
+                <img src="https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png" style="width: 300px; height: 300px" alt="Avatar" class="avatar" />
+            </div>
+
+            <div class="container">
+                <input type="checkbox" name="loginEmail" id="login-email">
+                <label for="loginEmail"><b>Login with Email</b></label><br />
+
+                <div class="form-control" id="username">
+                    <label for="uname"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="uname" required>
+                </div>
+
+                <div class="form-control" id="email">
+                    <label for="uemail"><b>Email</b></label>
+                    <input type="email" placeholder="Enter Email" name="uemail" required>
+                </div>
+
+                <div class="form-control">
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" required>
+                </div>
+
+                <div class="form-control">
+                    <button type="submit">Login</button>
+                    <label for="remember">Remember me
+          </label>
+                    <input id="remember" type="checkbox" checked="checked" name="remember">
+                </div>
+            </div>
+    </div>
+
+    <div class="register--form">
+        <h2>Register Form</h2>
+        <form action="/action_page.php" method="post" class="login-form">
+            <div class="imgcontainer">
+                <img src="https://www.pngkey.com/png/full/114-1149878_setting-user-avatar-in-specific-size-without-breaking.png" style="width: 300px; height: 300px" alt="Avatar" class="avatar" />
+            </div>
+            <div class="form-control" id="Name">
+                <label for="uname"><b>Name</b></label>
+                <input type="text" placeholder="Enter Name" name="uname" required>
+            </div>
+
+            <div class="form-control" id="Name">
+                <label for="suruname"><b>Surname</b></label>
+                <input type="text" placeholder="Enter Surame" name="suruname" required>
+            </div>
+
+            <div class="form-control" id="email">
+                <label for="uemail"><b>Email</b></label>
+                <input type="email" placeholder="Enter Email" name="uemail" required>
+            </div>
+
+            <div class="form-control">
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+            </div>
+
+            <div class="form-control">
+                <label for="confirmpsw"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Confirm Password" name="confirmpsw" required>
+            </div>
+
+            <div class="form-control">
+                <button type="submit">SignUp</button>
+                <button id="backButton" type="submit">Back To SignIn Page</button>
+                <label for="remember">Remember me
+        </label>
+                <input id="remember" type="checkbox" checked="checked" name="remember">
+            </div>
+    </div>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span id="register" type="checkbox" class="psw psw--register"><a href="#">Not a member yet? </a></span>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+    </form>
+
+    <ol class="exercises">
+        <li>Force the form to take the entire width of the screen</li>
+        <li>Change the color of login button to any shade of blue and the cancel button color to any shade of red</li>
+        <li>On hover change the color from blue to a blue with an opacity of 0.6</li>
+        <li>When checking "Login with Email" show the Email field and Hide the Username one</li>
+        <li>Make the "Cancel" button a sibling of Login and use the necessary styling to take the same space</li>
+        <li>Use this <a target="_blank" href="https://f0.pngfuel.com/png/42/810/white-speech-balloon-illustration-png-clip-art.png">baloon</a> and positionate near the avatar with some text. It should not break the page flow</li>
+        <li>Style the anchor "or Register" to look better on the page and after clicking it, use the correct element state, to hide the form inputs and add relevant inputs for a register form: it should include name, surname, email, age</li>
+    </ol>
+</body>
+<script src="app.js"></script>
+
+</html>
