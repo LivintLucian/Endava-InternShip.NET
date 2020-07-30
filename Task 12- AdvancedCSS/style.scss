@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Sofia');
+.flex__container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    .card {
+        position: relative;
+        transition: 0.3s;
+        background: linear-gradient(to bottom right, lightblue, white);
+        max-width: 200px;
+        // aici mai puteam sa dau si witdh: 25%, pentru a afisa cate 3 pe un rand
+        // Dar n-am inteles exact daca vrei sa se pastreze cate 3 pe un rand si la responsive
+        // Sau sa fie 3 initial pe un rand si dupa sa se faca wrap.
+        margin: 10%;
+        border: 1px solid lightblue;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            max-width: 200px;
+            max-height: 150px;
+            border-radius: 50%;
+            margin: 10px;
+        }
+        .container {
+            padding: 2px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        &:hover {
+            box-shadow: 10px 15px 16px -4px rgba(153, 153, 153, 0.75);
+        }
+        & button {
+            text-decoration: none;
+            color: white;
+            background: linear-gradient(to bottom right, rgb(75, 140, 172), rgb(38, 93, 113));
+            border: 0;
+            border-radius: 10%;
+            outline: 0;
+            margin-bottom: 3px;
+            position: absolute;
+            bottom: 0;
+            margin: 2px;
+        }
+        & button[type="submit"] {
+            left: 0;
+            height: 5.5%;
+        }
+        & button[type="button"] {
+            right: 0;
+        }
+        & h5 {
+            margin: 0;
+            margin-top: -12px;
+        }
+        & h4 {
+            font-family: 'Sofia';
+            font-size: 20px;
+        }
+        .card--title {}
+    }
+}
+
+
+/* 1920x1080- Dekstop */
+
+@media only screen and (min-width: 1080px) and (max-width: 1920px) {
+    .card {
+        color: rgb(69, 69, 69);
+    }
+}
+
+
+/* 1366x768- Dekstop */
+
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+    .card {
+        color: blue;
+    }
+}
+
+
+/* 736x414- Iphone 6/ 7/ 8, portrait */
+
+@media all and (min-device-width: 414px) and (max-device-width: 736px) {
+    .flex__container {
+        justify-content: center;
+        & .card {
+            width: 100%;
+        }
+    }
+}
+
+
+/* 736x414- Iphone 6/ 7/ 8, landscape */
+
+@media all and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {}
+
+
+/* 640x360- Galaxi S5( am facut pe asta ca sa pot testa din browser, nu gaseam S6)*/
+
+
+/* Configurez si portraitul & landscape simultan */
+
+@media all and (min-device-width: 360px) and (max-device-width: 360px) {
+    .flex__container {
+        justify-content: center;
+        & .card {
+            width: 100%;
+        }
+    }
+}

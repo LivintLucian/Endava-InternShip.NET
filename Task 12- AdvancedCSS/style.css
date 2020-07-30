@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+.flex__container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.flex__container .card {
+  position: relative;
+  transition: 0.3s;
+  background: linear-gradient(to bottom right, lightblue, white);
+  max-width: 200px;
+  margin: 10%;
+  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex__container .card img {
+  max-width: 200px;
+  max-height: 150px;
+  border-radius: 50%;
+  margin: 10px;
+}
+.flex__container .card .container {
+  padding: 2px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.flex__container .card:hover {
+  box-shadow: 10px 15px 16px -4px rgba(153, 153, 153, 0.75);
+}
+.flex__container .card button {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(to bottom right, #4b8cac, #265d71);
+  border: 0;
+  border-radius: 10%;
+  outline: 0;
+  margin-bottom: 3px;
+  position: absolute;
+  bottom: 0;
+  margin: 2px;
+}
+.flex__container .card button[type=submit] {
+  left: 0;
+  height: 5.5%;
+}
+.flex__container .card button[type=button] {
+  right: 0;
+}
+.flex__container .card h5 {
+  margin: 0;
+  margin-top: -12px;
+}
+.flex__container .card h4 {
+  font-family: "Sofia";
+  font-size: 20px;
+}
+/* 1920x1080- Dekstop */
+@media only screen and (min-width: 1080px) and (max-width: 1920px) {
+  .card {
+    color: #454545;
+  }
+}
+/* 1366x768- Dekstop */
+@media only screen and (min-width: 768px) and (max-width: 1366px) {
+  .card {
+    color: blue;
+  }
+}
+/* 736x414- Iphone 6/ 7/ 8, portrait */
+@media all and (min-device-width: 414px) and (max-device-width: 736px) {
+  .flex__container {
+    justify-content: center;
+  }
+  .flex__container .card {
+    width: 100%;
+  }
+}
+/* 736x414- Iphone 6/ 7/ 8, landscape */
+/* 640x360- Galaxi S5( am facut pe asta ca sa pot testa din browser, nu gaseam S6)*/
+/* Configurez si portraitul & landscape simultan */
+@media all and (min-device-width: 360px) and (max-device-width: 360px) {
+  .flex__container {
+    justify-content: center;
+  }
+  .flex__container .card {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
