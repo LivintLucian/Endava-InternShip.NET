@@ -11,7 +11,7 @@ namespace Client.Models
         [StringLength(60, MinimumLength = 3)]
         public string FirstName { get; set; }
 
-        [Display(Name = "Last name")]
+        [Display(Name = "Last name 2")]
         [StringLength(60, MinimumLength = 3)]
         public string LastName { get; set; }
 
