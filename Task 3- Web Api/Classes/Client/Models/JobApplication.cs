@@ -18,7 +18,7 @@ namespace Client.Models
         [Required(ErrorMessage = "Please enter your email address")]
         public string Email { get; set; }
 
-        [Display(Name = "Phone number"), DataType(DataType.PhoneNumber)]
+        [Display(Name = "Phone numberr"), DataType(DataType.PhoneNumber)]
         [Required(ErrorMessage = "Please enter your phone number")]
         public int PhoneNumber { get; set; }
 
