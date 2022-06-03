@@ -7,7 +7,7 @@ namespace Client.Models
     {
         public int Id { get; set; }
 
-        [StringLength(20)]
+        [StringLength(201)]
         public string Street { get; set; }
 
         [StringLength(20)]
