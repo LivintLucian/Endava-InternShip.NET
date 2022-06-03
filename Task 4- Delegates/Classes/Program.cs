@@ -19,7 +19,7 @@ namespace Delegates
         {
             for (int i = 0; i < n; ++i)
             {
-                Console.Write((i * 2) + 1);
+                Console.Write((i * 2) + 2);
             }
 
         }
