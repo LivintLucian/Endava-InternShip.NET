@@ -5,3 +5,5 @@ PR Scenario: Test branch;
 Action Scenario: Master branch;
 TestPR2
 TestPrAutomation
+TestPrAutomation
+TestPrAutomation2
