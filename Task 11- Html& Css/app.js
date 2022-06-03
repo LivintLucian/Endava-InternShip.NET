@@ -8,6 +8,7 @@ function dynamicRegister() {
     registerLink.addEventListener("click", () => {
         registerClass.style.display = "block";
         loginClass.style.display = "none";
+        console.log('test');
     });
 }
 
