@@ -4,7 +4,7 @@ namespace Client.Models
 {
     public class EmployeeRequirements
     {
-        public int Id { get; set; }
+        public int Ids { get; set; }
 
         public double MinimumAge { get; set; }
 
