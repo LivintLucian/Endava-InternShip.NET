@@ -7,3 +7,4 @@ TestPR2
 TestPrAutomation
 TestPrAutomation2
 TestAutomaticCommitMessage
+TestAutomaticCommitMessage2
