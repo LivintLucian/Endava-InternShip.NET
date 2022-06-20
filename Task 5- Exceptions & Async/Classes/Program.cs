@@ -19,7 +19,7 @@ namespace Async
         {
             var providers = new List<Provider>();
 
-            providers.Add(Provider.CreateProvider(1, "Busu", 35));
+            providers.Add(Provider.CreateProvider(1, "Busu2", 35));
             providers.Add(Provider.CreateProvider(1, "Ioan", 29));
             providers.Add(Provider.CreateProvider(1, "Sebastian", 31));
             providers.Add(Provider.CreateProvider(1, "Stefan", 28));
