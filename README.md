@@ -6,3 +6,4 @@ Action Scenario: Master branch;
 TestPR2
 TestPrAutomation
 TestPrAutomation2
+TestAutomaticCommitMessage
