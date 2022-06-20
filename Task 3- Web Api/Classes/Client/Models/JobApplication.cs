@@ -28,7 +28,7 @@ namespace Client.Models
         [Required(ErrorMessage = "Please select a job title.")]
         public int EmployeeRequirementsId { get; set; }
 
-        [Display(Name = "Job title")]
+        [Display(Name = "Job titlee")]
         public virtual EmployeeRequirements EmployeeRequirements { get; set; }
     }
 }
