@@ -43,7 +43,7 @@ namespace Delegates
             /*
              * Ex 2.
              */
-            List<string> list=new List<string>(){"aa","bb","c","d","eee"};
+            List<string> list=new List<string>(){"aaa","bb","c","d","eee"};
             Filter(list, s => s.Length == 2);
         }
     }
