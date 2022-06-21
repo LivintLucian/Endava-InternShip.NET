@@ -11,7 +11,9 @@ namespace Client
 {
     public class Startup
     {
+     
         
+        //help
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddHttpClient("localhost", c =>
